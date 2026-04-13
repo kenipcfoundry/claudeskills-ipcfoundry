@@ -1,0 +1,22 @@
+{
+  "name": "ipc-skills",
+  "owner": {
+    "name": "IPC Foundry"
+  },
+  "metadata": {
+    "description": "IPC coding conventions and architectural patterns for backend and frontend repositories",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "api-conventions",
+      "source": "./plugins/api-conventions",
+      "description": "Backend API coding patterns: controllers, services, repositories, schemas, errors, Prisma, SSE"
+    },
+    {
+      "name": "frontend-conventions",
+      "source": "./plugins/frontend-conventions",
+      "description": "Frontend coding patterns: forms, tables, dialogs, styling, React Query, state management, drag-drop, icons, navigation"
+    }
+  ]
+}
